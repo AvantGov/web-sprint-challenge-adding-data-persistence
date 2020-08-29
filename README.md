@@ -10,6 +10,8 @@ You are not allowed to collaborate during the sprint challenge. However, you are
 
 _You have **three hours** to complete this challenge. Plan your time accordingly._
 
+
+
 ## Introduction
 
 In this project you will be given a set of requirements and must design a database to satisfy them. As a part of this process you'll also build an API with endpoints to access the data.
