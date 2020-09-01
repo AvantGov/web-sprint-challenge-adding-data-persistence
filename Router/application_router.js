@@ -49,7 +49,7 @@ router.post("/projects", async (req, res, next) => {
     try {
         const project = await database_access
             .insert({
-                id: Math.random(),
+                // id: Math.random(),
                 name: req.body.name,
                 description: req.body.description
             })
@@ -81,7 +81,7 @@ router.post("/tasks", async (req, res, next) => {
     try {
         const task = await database_access
             .insert({
-                id: Math.random(),
+                // id: Math.random(),
                 description: req.body.description,
                 notes: req.body.notes,
                 project_id: req.body.project_id 
